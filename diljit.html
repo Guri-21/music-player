@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top artist</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .follow-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .followed {
+            background-color: #28a745; /* Green color for followed state */
+        }
+
+        .follow-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="nav">
+        <img src="logo.png" alt="" srcset="">
+        <a href="file:///D:/html%20project/navigation.html"><h4>Home</h4></a>
+        <a href="file:///D:/html%20project/playlist.html"><h4>Playlist</h4></a>
+        <a href="file:///D:/html%20project/library.html"><h4>Your library</h4></a>
+        <a href="file:///D:/html%20project/signup.html"><h4>LOG IN</h4></a>
+      </div>
+      <div id="cursor"></div>
+      <div id="cursor-blur"></div>
+      <video autoplay loop muted src="intro.mp4"></video>
+    <h1>DILJIT DOSANJH</h1>
+    <section>
+        <img src="D:\html project\th.jpeg" alt="Profile Picture">
+        <h1>Diljit Dosanjh</h1>
+        <p>1.1 million streams</p>
+        <button id="followButton" class="follow-button" onclick="toggleFollow()">Follow</button>
+        <ul>
+            <li>Most listened song <a href="">KINI-KINI</a></li>
+            <li></li>
+            <li>Website: <a href="https://www.example.com" target="_blank">www.example.com</a></li>
+        </ul>
+    </section>
+    <script>
+        function toggleFollow() {
+            var followButton = document.getElementById("followButton");
+
+            if (followButton.innerHTML === "Follow") {
+                followButton.innerHTML = "Followed";
+                followButton.classList.add("followed");
+            } else {
+                followButton.innerHTML = "Follow";
+                followButton.classList.remove("followed");
+            }
+        }
+    </script>
+     <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="play.js"></script>
+
+</body>
+</html>

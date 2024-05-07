@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Number Validation Example</h1>
+<form onsubmit="return validate()">Enter a Number<input type="text" id="number" name="number">
+<span id="numError"></span><br>
+<input type="submit" value="Submit">
+</form>
+<script>
+    function validate() {
+     var number = document.getElementById("number").value;
+    if(isNaN(number)) 
+    {
+    document.getElementById(" numError ").innerHTML="Enter Numeric value only"; 
+    return false;
+    }
+    return true;
+    }
+    </script>
+    </body>
+    </html>
