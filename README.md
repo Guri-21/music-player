@@ -1,2 +1,2 @@
 # music-player
-music player
+This is a music player.
