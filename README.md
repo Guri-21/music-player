@@ -2,7 +2,7 @@ MUSIC PLAYER-RYTHMIQ
 
 CONTRIBUTIONS-
 1.Gurleen singh
-2.Gurnoor Singh
+2.Gurnoor Partap Singh
 3.Gurmehar bains
 
 OVERVIEW-
@@ -50,9 +50,11 @@ It can help individuals to concentrate on tasks by providing a familiar and enjo
 Music has the power to evoke emotions and moods. A well-curated playlist can lift spirits, soothe stress, or energize the listener, contributing to overall mental well-being.
 4. Discovering New Music:
 Our music player has features that suggest new songs or artists based on a user's listening history. This can introduce users to fresh and exciting music they might not have discovered otherwise.
-
-
 5. Preservation of Physical Space:
 Digital music players eliminate the need for physical CDs or records, helping to declutterm living spaces and reduce the environmental impact of physical media production.
 6. User-Driven Experience:
 It puts users in control, allowing them to skip tracks, adjust volume, and create playlists that align with their preferences and current mood.
+
+Start Date:  May 5th , 2024, 9:00 AM - This marks the beginning of your project timeline.
+Checkpoint Meeting: May 10th, 2024, 2:00 PM - Schedule a meeting to review progress, discuss any challenges, and adjust the project plan if necessary.
+Submission Deadline: May 15th , 2024, 9:00 PM - This is the ultimate deadline for completing and submitting the music player website project
